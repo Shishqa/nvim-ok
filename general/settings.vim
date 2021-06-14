@@ -47,6 +47,8 @@ set mat=2                      " How many tenths of a second to blink
 
 set expandtab                  " Use spaces instead of tabs
 set smarttab                   " Be smart when using tabs ;)
+set shiftwidth=4               " 1 tab == 4 spaces
+set tabstop=4
 
 " open new split panes to right and below
 set splitright
