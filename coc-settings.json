@@ -1,6 +1,11 @@
 {
   "snippets": {
-    "userSnippetsDirectory" : "/home/shishqa/.config/nvim/snippets/"
+    "ultisnips" : {
+      "directories" : [
+        "/home/shishqa/.config/nvim/snippets/",
+        "/home/shishqa/.config/nvim/vim-plug/vim-snippets/UltiSnips"
+      ]
+    }
   },
   "languageserver": {
     "ccls": {

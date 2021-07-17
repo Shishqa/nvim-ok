@@ -1,11 +1,5 @@
 "=========================================================================="
 
-set termguicolors
-set background=dark
-colorscheme PaperColor
-
-"=========================================================================="
-
 set history=500
 
 set viminfo=%,<800,'10,/50,:100,h,f0,n~/.config/nvim/cache/.viminfo

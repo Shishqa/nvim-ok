@@ -3,6 +3,9 @@ call plug#begin('~/.config/nvim/vim-plug')
 "============================================================================"
 " * Workflow
 
+" >> note taking system
+Plug 'lervag/wiki.vim'
+
 " >> coc.nvim completion engine
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 let g:coc_global_extensions = [
@@ -58,4 +61,10 @@ Plug 'fatih/vim-go'
 
 "============================================================================"
 call plug#end()
+"============================================================================"
+
+set termguicolors
+set background=dark
+colorscheme PaperColor
+
 "============================================================================"
